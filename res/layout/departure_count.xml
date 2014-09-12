@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+     <include layout="@layout/top"/>
+     <ScrollView 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="5dp"
+       android:layout_marginRight="5dp"
+     >
+      <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         android:layout_margin="10dp"
+         android:background="@drawable/border"
+         >
+     <EditText 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/fuel"
+         android:hint="请输入油费（元）"
+         android:inputType="phone"
+         />
+     <EditText 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/toll"
+         android:hint="请输入过路费（元）"
+        android:inputType="phone"
+         />
+     <EditText 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/fine"
+         android:hint="请输入罚款（元）"
+         android:inputType="phone"
+         />
+     <EditText 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/fees"
+         android:hint="请输入材料费用（元）"
+         android:inputType="phone"
+         />
+     <EditText 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/other"
+         android:hint="请输入其他（元）"
+         android:inputType="phone"
+         />
+     
+     
+     
+     
+    <Button 
+        android:id="@+id/confirm"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/btn_010"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#ffffff"
+        />
+    
+    
+    <TextView 
+        android:id="@+id/plate_number" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"     
+        android:text="车牌号："
+        android:lineSpacingExtra="2dp"
+        android:textSize="20sp"
+        />
+     <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/line_repeat" />
+    <TextView 
+        android:id="@+id/departure_time" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"     
+        android:text="发车日期 ： "
+        android:lineSpacingExtra="2dp"
+        android:textSize="20sp"
+        />
+     <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/line_repeat" />
+    <TextView 
+        android:id="@+id/code" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"     
+        android:text="车次编号："
+        android:lineSpacingExtra="2dp"
+        android:textSize="20sp"
+        />
+     <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/line_repeat" />
+    <TextView 
+        android:id="@+id/driver_name" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"     
+        android:text="司机： "
+        android:lineSpacingExtra="2dp"
+        android:textSize="20sp"
+        />
+     <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/line_repeat" />
+    <TextView 
+        android:id="@+id/driver_phone" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"     
+        android:text="手机号：  "
+        android:lineSpacingExtra="2dp"
+        android:textSize="20sp"
+        />
+        </LinearLayout>
+	</ScrollView>
+</LinearLayout>

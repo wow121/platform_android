@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBF3F5"
+    android:orientation="vertical" >
+    <include layout="@layout/top"/>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp"  
+        android:background="@drawable/border">
+	<TextView 
+	    android:id="@+id/setting_btn_version"
+	    android:layout_width="match_parent"
+	    android:layout_height="40dp"
+	    android:paddingLeft="20dp"
+	    android:gravity="center_vertical"
+	    android:text="版本更新"/>
+	<View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/line_repeat" />
+	<TextView 
+	    android:id="@+id/setting_btn_changepassword"
+	    android:layout_width="match_parent"
+	    android:layout_height="40dp"
+	    android:paddingLeft="20dp"
+	    android:gravity="center_vertical"
+	    android:text="修改密码 >"/>
+	<View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/line_repeat" />
+	<TextView 
+	    android:layout_width="match_parent"
+	    android:layout_height="40dp"
+	    android:paddingLeft="20dp"
+	    android:gravity="center_vertical"
+	    android:text="意见反馈"/>
+     
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/setting_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="0.39"
+         />
+
+    <Button
+        android:id="@+id/setting_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="#B3E54E"
+        android:textColor="#ffffff"
+        android:text="确   定 " />
+
+</LinearLayout>

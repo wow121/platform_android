@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CD8C95" >
+    <include layout="@layout/top"/>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.3"
+        >
+        
+      <TextView 
+          android:layout_width="0dip"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:text="周一"
+          android:background="@drawable/border"
+          android:gravity="center"
+          />
+      <TextView 
+          android:layout_width="0dip"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:text="周二"
+          android:gravity="center"
+          android:background="@drawable/border"
+          />
+      <TextView 
+          android:layout_width="0dip"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:text="周三"
+          android:gravity="center"
+          android:background="@drawable/border"
+          />
+      <TextView 
+          android:layout_width="0dip"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:text="周四"
+          android:gravity="center"
+          android:background="@drawable/border"
+          />
+      <TextView 
+          android:layout_width="0dip"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:text="周五"
+          android:gravity="center"
+          android:background="@drawable/border"
+          />
+    </LinearLayout>
+    
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        >
+        
+      <TextView 
+          android:id="@+id/one_one"
+          android:layout_width="0dip"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          
+          android:gravity="center"
+          android:background="@drawable/border"
+          />
+      <TextView 
+          android:id="@+id/two_one"
+          android:layout_width="0dip"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          
+          android:gravity="center"
+          android:background="@drawable/border"
+          />
+      <TextView 
+          android:id="@+id/three_one"
+          android:layout_width="0dip"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          
+          android:gravity="center"
+          android:background="@drawable/border"
+          />
+      <TextView 
+          android:id="@+id/four_one"
+          android:layout_width="0dip"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          
+          android:gravity="center"
+          android:background="@drawable/border"
+          />
+      <TextView 
+          android:id="@+id/five_one"
+          android:layout_width="0dip"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          
+          android:gravity="center"
+          android:background="@drawable/border"
+          />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1">
+      <TextView 
+          android:id="@+id/one_two"
+          android:layout_width="0dip"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          
+          android:gravity="center"
+          android:background="@drawable/border"
+          />
+      <TextView 
+          android:id="@+id/two_two"
+          android:layout_width="0dip"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          
+          android:gravity="center"
+          android:background="@drawable/border"
+          
+          />
+      <TextView 
+          android:id="@+id/three_two"
+          android:layout_width="0dip"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          
+          android:gravity="center"
+          android:background="@drawable/border"
+          />
+      <TextView 
+          android:id="@+id/four_two"
+          android:layout_width="0dip"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          
+          android:gravity="center"
+          android:background="@drawable/border"
+          />
+      <TextView 
+          android:id="@+id/five_two"
+          android:layout_width="0dip"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          
+          android:gravity="center"
+          android:background="@drawable/border"
+          />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1">
+      <TextView 
+          android:id="@+id/one_three"
+          android:layout_width="0dip"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          
+          android:gravity="center"
+          android:background="@drawable/border"
+          />
+      <TextView 
+          android:id="@+id/two_three"
+          android:layout_width="0dip"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          
+          android:gravity="center"
+          android:background="@drawable/border"
+          />
+      <TextView 
+          android:id="@+id/three_three"
+          android:layout_width="0dip"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          
+          android:gravity="center"
+          android:background="@drawable/border"
+          />
+      <TextView 
+          android:id="@+id/four_three"
+          android:layout_width="0dip"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          
+          android:gravity="center"
+          android:background="@drawable/border"
+          />
+      <TextView 
+          android:id="@+id/five_three"
+          android:layout_width="0dip"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          
+          android:gravity="center"
+          android:background="@drawable/border"
+          />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1">
+      <TextView 
+          android:id="@+id/one_four"
+          android:layout_width="0dip"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          
+          android:gravity="center"
+          android:background="@drawable/border"
+          />
+      <TextView 
+          android:id="@+id/two_four"
+          android:layout_width="0dip"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          
+          android:gravity="center"
+          android:background="@drawable/border"
+          />
+      <TextView 
+          android:id="@+id/three_four"
+          android:layout_width="0dip"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          
+          android:gravity="center"
+          android:background="@drawable/border"
+          />
+      <TextView 
+          android:id="@+id/four_four"
+          android:layout_width="0dip"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          
+          android:gravity="center"
+          android:background="@drawable/border"
+          />
+      <TextView 
+          android:id="@+id/five_four"
+          android:layout_width="0dip"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          
+          android:gravity="center"
+          android:background="@drawable/border"
+          />
+    </LinearLayout>
+</LinearLayout>
